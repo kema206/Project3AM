@@ -1,0 +1,49 @@
+.container {
+    padding: 1em 5em 0 5em;
+}
+
+.notif a {
+    color: black;
+    text-decoration: none;
+}
+
+.notif {
+    font-weight: normal;
+    border: none;
+    position: relative;
+    margin: 0 1em 0 1em;
+    padding: 1em 0 0 1em;
+    background-color: white;
+}
+
+.notif:hover {
+    background-color: grey;
+}
+
+.notif h4 {
+    font-size: 0.8em;
+}
+
+.notif p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav ul li a p {
+    position: absolute;
+    background-color: #000000;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+}
+
+nav ul li a:hover p {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+}

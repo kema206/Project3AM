@@ -1,0 +1,48 @@
+
+textarea {
+    outline: none;
+    resize: none;
+    text-align: start;
+    border: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.post{
+    padding: 1em 1em 1em 1em;
+}
+
+.container{
+    padding: 0 5em 0 5em;
+}
+
+
+nav ul li a p{
+    position: absolute;
+    background-color: #000000;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+}
+
+nav ul li a:hover p{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+}
+
+.rules{
+    margin-top: 1em;
+    padding: 1em 2em 1em 2em;
+}
+
+.rules li{
+    border-bottom: grey 0.1px solid;
+    padding: 1em 0.5em 0.5em 0.5em;
+}

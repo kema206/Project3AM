@@ -1,0 +1,105 @@
+.post_section{
+    padding: 1em 5em 0 5em;
+}
+
+.post{
+    font-weight: normal; 
+    margin: 1em; 
+    background-color: #FFFFFF;
+    border-radius: 5px; 
+    border: solid 1px black;
+    position: relative;
+}
+
+.post .left {
+    background-color: #CCCCCC;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    padding: 0.5em 0.5em 0 1em;
+    width: 5%;
+}
+  
+  .post .right {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 0.5em 0 0.2em 1em;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 95%;
+}
+
+.post .right h4{
+    font-size: 0.9em;
+    display: inline;
+}
+
+.post .right h5{
+    font-size: 0.8em;
+    display: inline;
+    color: grey;
+}
+
+.post .right p{
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+}
+
+.post .left p{
+    vertical-align: bottom;
+    font-size: 0.8em;
+}
+
+.up-button{
+    border: none;
+    background: none;
+    vertical-align: top;
+}
+
+.up-button:hover{
+    border: none;
+    background: #BEBEBE;
+    color: chartreuse;
+}
+
+.comment-button{
+    border: none;
+    background: none;
+    float: left;
+    margin-bottom: 0.5em;
+}
+
+.comment-button:hover{
+    border: none;
+    border-radius: 0.2em;
+    background: #BEBEBE;
+    color: #FFFFFF;
+}
+
+nav ul li a p{
+    position: absolute;
+    background-color: #000000;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+}
+
+nav ul li a:hover p{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+}
+
+.comment-button {
+    color: black;
+    text-decoration: none;
+}

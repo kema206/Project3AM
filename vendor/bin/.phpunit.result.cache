@@ -1,0 +1,1 @@
+{"version":1,"defects":{"CreateUserAccountTest::testCreateAccountWithValidData":8,"UserCreateAccountTest::testUserCreateAccount":8},"times":{"CreateUserAccountTest::testCreateAccountWithValidData":0.014,"UserCreateAccountTest::testUserCreateAccount":0.011}}
